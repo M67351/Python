@@ -1,0 +1,13 @@
+applenumberstr=input("how many apple? ")
+applenumberint=int((applenumberstr))
+print(applenumberint,"apples")
+if applenumberint == 0:
+    print("haha")
+if applenumberint == 1:
+    print("not enough")
+if applenumberint == 2:
+    print("yay")
+if applenumberint == 3:
+    print("bit too much")
+if applenumberint==4:
+    print("why")
