@@ -1,0 +1,3 @@
+h = float(input("Height of rectangle in cm? "))
+w = float(input("Width in cm? "))
+print("The area is", h*w, "cm")
