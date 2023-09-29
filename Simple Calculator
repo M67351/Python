@@ -1,4 +1,4 @@
-print("Welcome to python calcultor")
+print("Welcome to simple calcultor")
 addno1 = int(input("First number: "))
 addno2 = int(input("Second number: "))
 command = input("Type one of the following functions: + , - , /, or * ")
