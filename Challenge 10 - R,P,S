@@ -1,18 +1,18 @@
 print("Lets play Rock,Paper,Scissors")
 userChoice = int(input("Decide what number you will play: 1=rock,2=paper, or 3=scissors"))
 rock = 1
-papil = 2
+papel = 2
 scisor = 3
 import random
 compChoice = int(random.randint(1, 3))
 if userChoice == compChoice:
     print("Draw")
 elif userChoice==rock:
-    if compChoice==papil:
+    if compChoice==papel:
         print("You lose")
     else:
         print("You win")
-elif userChoice==papil:
+elif userChoice==papel:
     if compChoice==scisor:
         print("You lose")
     else:
