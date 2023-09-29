@@ -1,13 +1,15 @@
-applenumberstr=input("how many apple? ")
-applenumberint=int((applenumberstr))
+appnostr=input("how many apple? ")
+appnoint=int((applenumberstr))
 print(applenumberint,"apples")
 if applenumberint == 0:
     print("haha")
-if applenumberint == 1:
+elif applenumberint == 1:
     print("not enough")
-if applenumberint == 2:
+elif applenumberint == 2:
     print("yay")
-if applenumberint == 3:
+elif applenumberint == 3:
     print("bit too much")
-if applenumberint==4:
+elif applenumberint==4:
     print("why")
+else:
+    print("u got moneyyy")
