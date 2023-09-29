@@ -1,0 +1,9 @@
+print("Lets play Rock,Paper,Scissors")
+if input("Decide what you will play: rock, paper, or scissors") == "rock":
+    print("I picked paper, you lose :(")
+if input("Decide what you will play: rock, paper, or scissors") == "paper":
+    print("I picked scissors, you lose :(")
+if input("Decide what you will play: rock, paper, or scissors") == "scissors":
+    print("I picked rock, you lose :(")
+else:
+    print("pick from rock, paper or scissors bruh")
