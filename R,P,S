@@ -1,9 +1,26 @@
 print("Lets play Rock,Paper,Scissors")
-if input("Decide what you will play: rock, paper, or scissors") == "rock":
-    print("I picked paper, you lose :(")
-if input("Decide what you will play: rock, paper, or scissors") == "paper":
-    print("I picked scissors, you lose :(")
-if input("Decide what you will play: rock, paper, or scissors") == "scissors":
-    print("I picked rock, you lose :(")
+userChoice = int(input("Decide what number you will play: 1=rock,2=paper, or 3=scissors"))
+rock = 1
+papil = 2
+scisor = 3
+import random
+compChoice = int(random.randint(1, 3))
+if userChoice == compChoice:
+    print("Draw")
+elif userChoice==rock:
+    if compChoice==papil:
+        print("You lose")
+    else:
+        print("You win")
+elif userChoice==papil:
+    if compChoice==scisor:
+        print("You lose")
+    else:
+        print("You win")
+elif userChoice==scisor:
+    if compChoice==rock:
+        print("You lose")
+    else:
+        print("You win")
 else:
-    print("pick from rock, paper or scissors bruh")
+    print("Error: incorrect input")
