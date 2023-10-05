@@ -1,0 +1,19 @@
+# Carpet cost program with help from time2code
+
+# -------------------------
+# Subprograms
+# -------------------------
+def carpet_cost(w, l, p):
+    carpet = w * l * p
+    grippers = w + l
+    fitting = 50
+    underlay = w * l * 2
+    return carpet + grippers + fitting + underlay
+    
+# -------------------------
+# Main program - integrates my original program
+# -------------------------
+w=int(input("Enter the width of the room to nearest meter: "))
+l=int(input("Enter the length of the room to nearest meter: "))
+p=int(input("Enter the price of the carpet per m^2: "))
+print("The total cost is: £" + str(carpet_cost(w, l, p)))

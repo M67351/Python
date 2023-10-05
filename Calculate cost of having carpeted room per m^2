@@ -1,4 +1,0 @@
-w=int(input("Enter the width of the room to nearest meter: "))
-h=int(input("Enter the height of the room to nearest meter: "))
-p=int(input("Enter the price of the carpet per m^2: "))
-print("The total cost is: £" + str(w*h*p))
