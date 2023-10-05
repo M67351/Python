@@ -1,14 +1,14 @@
 print("Welcome to simple calcultor")
 addno1 = int(input("First number: "))
+command = input("Functions: + , - , /, * ")
 addno2 = int(input("Second number: "))
-command = input("Type one of the following functions: + , - , /, or * ")
 if command == "+":
-    print(addno1+addno2)
+    print(addno1,command,addno2,"=",addno1+addno2)
 if command == "-":
-    print(addno1-addno2)
+    print(addno1,command,addno2,"=",addno1-addno2)
 if command == "*":
-    print(addno1*addno2)
+    print(addno1,command,addno2,"=",addno1*addno2)
 if command == "/":
-    print(addno1/addno2)
+    print(addno1,command,addno2,"=",addno1/addno2)
 if command != "/" and command != "*" and command != "-" and command != "+":
     print("-error, please run again-")
