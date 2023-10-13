@@ -15,5 +15,5 @@ def carpet_cost(w, l, p):
 # -------------------------
 w=int(input("Enter the width of the room to nearest meter: "))
 l=int(input("Enter the length of the room to nearest meter: "))
-p=int(input("Enter the price of the carpet per m^2: "))
+p=int(input("Enter the price of the carpet (without £,$, etc): "))
 print("The total cost is: £" + str(carpet_cost(w, l, p)))
