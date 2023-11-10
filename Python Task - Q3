@@ -1,0 +1,3 @@
+#using a for loop, write a code that prints i as long as i is less than 6 and i increments by 1
+for i in range(0, 6, 1):
+    print(i)
