@@ -1,0 +1,7 @@
+#using a while loop, write a code that prints i as long as i is less than 6, and i increments by 1, but has a break statement that stops the loop when i is 3
+i = 1 
+while i < 6:
+    print(i)
+    if i == 3:
+        break
+    i += 1
