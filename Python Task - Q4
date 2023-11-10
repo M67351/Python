@@ -1,0 +1,6 @@
+#using a for loop, write a code using x as a variable that derives the multiples of 3 in the range 3 to 37 and then prints x as long as i is less than 37, incrementing by 3
+x = range(3,37,3)
+for i in x:
+    print(i)
+    if i > 37: 
+        break
