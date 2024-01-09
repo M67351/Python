@@ -1,0 +1,9 @@
+#Write an algorithm in pseudocode which:
+#- asks the user to input 2 numbers
+#- outputs the larger of the two numbers along with a suitable message
+no1 = int(input("Type any number:  "))
+no2 = input(("Type any number again: "))
+if no1 > no2:
+    print("This number bigger: ", no1)
+else:
+    print("This number bigger: ", no2)
