@@ -1,0 +1,24 @@
+#If Monday = 0, Tuesday = 1 etc…
+#…write an algorithm in pseudocode which:
+#- Asks the user to enter a number,
+#- Outputs the day that the number represents,
+#- Validates the number so that an error message displays if the number 
+#is not a valid weekday number.
+error="Incorrect input"
+user=int(input("Enter a day of the week as a number, starting from 0 and ending at 6"))
+if user == 0:
+    print("Monday")
+elif user == 1:
+    print("Tuesday")
+elif user == 2:
+    print("Wednesday")
+elif user == 3:
+    print("Thursday")
+elif user == 4:
+    print("Friday")
+elif user == 5:
+    print("Saturday")
+elif user == 6:
+    print("Sunday")
+else:
+    print(error)
