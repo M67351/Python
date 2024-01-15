@@ -1,0 +1,8 @@
+#Read a pupil age and output a message “Valid pupil age” if it is at least 10 and less than 19 years old. Otherwise output the message “Invalid input: enter a value from 11 to 18”.c 
+age = int(input("Input age of pupil"))
+valid = "Valid pupil age"
+if age < 19 then
+    output(valid)
+else if age >= 10 then
+    output(valid)
+end if
