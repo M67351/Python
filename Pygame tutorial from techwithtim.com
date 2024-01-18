@@ -33,6 +33,18 @@ while run:
     if keys[pygame.K_s]:
         y += vel
 
+    if keys[pygame.K_LEFT]:
+        x -= vel
+
+    if keys[pygame.K_RIGHT]:
+        x += vel
+
+    if keys[pygame.K_UP]:
+        y -= vel
+
+    if keys[pygame.K_DOWN]:
+        y += vel
+
     win.fill((0,0,0))  # Fills the screen with black
     pygame.draw.rect(win, (255,0,0), (x, y, width, height))   
     pygame.display.update() 
