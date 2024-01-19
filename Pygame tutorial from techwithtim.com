@@ -70,6 +70,6 @@ while run:
     if keys[pygame.K_DOWN] and keys[pygame.K_LSHIFT]:
       y += vel
 
-    win.fill((250,150,150))  # Fills the screen with black
+    win.fill((250,150,150))  # Fills the screen with salmon
     pygame.draw.rect(win, (0,100,150), (x, y, width, height))   
     pygame.display.update() 
