@@ -1,0 +1,22 @@
+
+# Online Python - IDE, Editor, Compiler, Interpreter
+
+def fibonacci():
+    length=int(input("Enter fibonacci sequence length: "))
+    x=0
+    y=1
+    iteration=1
+    if length <= 0:
+        print("Error: length has to be greater than 0")
+    elif length == 1:
+        print("This sequence has {} element".format(length), ":")
+        print(x)
+    else:
+        print("This sequence has {} elements".format(length), ":")
+    while(iteration<length):
+        print(x,end=',')
+        z=x+y
+        x=y
+        y=z
+        iteration+=1
+fibonacci()
