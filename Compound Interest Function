@@ -1,0 +1,15 @@
+def loanGrow():
+    count=int(input("Enter length of loan in years"))
+    year=1
+    start=0
+    paidin=int(input("Enter amount saved per year"))
+    print("Year,  Start,  Paid in,  Interest,  Total")
+    while count>0:
+        interest1=start+paidin
+        interest2=interest1*0.1
+        final=interest1+interest2
+        print(round(year),"    ",round(start),"      ",round(paidin),"     ",round(interest2),"     ",round(final))
+        year+=1
+        count-=1
+        start=start+final
+loanGrow()
