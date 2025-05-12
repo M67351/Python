@@ -1,0 +1,21 @@
+counter = 1
+while counter <= 100:
+    userNo=(input("Word or number"))
+    if userNo == "word":
+        userWord=input("Enter word")
+        if counter / 3 != int and userWord == "fizz":
+            print("Incorrect, answer is", counter)
+        elif counter / 5 != int and userWord=="buzz":
+            print("Incorrect, answer is", counter)
+        else:
+            print("Correct")
+    elif userNo == "number":
+        userNum=input("Enter number")
+        if counter/3 == int and userWord != "fizz":
+            print("Incorrect, answer is fizz")
+        elif counter/5 == int and userWord != "buzz":
+            print("Incorrect, answer is buzz")
+        elif counter/5 == int and counter/3 == int and userWord != "fizz buzz" or "fizzbuzz":
+            print("Incorrect, answer is fizz buzz")
+    else:
+        print("Please enter -word- or -number-")
